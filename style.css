@@ -152,6 +152,7 @@ input{
 
     .container-data{
         width: 85%;
+        min-width: 450px;
         margin: 0 auto;
     }
 }
