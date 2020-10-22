@@ -1,0 +1,157 @@
+/* GLOBAL SETTINGS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 80vw;
+    max-width: 980px;
+    height: 100vh;
+    background: #fafafa;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: 85%;
+    height: 30px;
+    margin: 8px 0 5px 0;
+    text-transform: capitalize;
+    background: #0095f6;
+    border: none;
+    padding: 5px 9px;
+    color: white;
+}
+
+
+
+/* CONTAINER GERAL */
+
+.container-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+
+}
+
+.container-img img{
+    height: 75%;
+}
+
+.container-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-log{
+    width: 80%;
+    text-align: center;
+    border: 1px solid lightgray;
+    background: #FFFFFF;
+    margin:0 0 10px;
+    padding: 10px 10px;
+    color: #262626;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 85%;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0.2rem;
+    padding-left: 0.5rem;
+    background: #FAFAFA;
+
+}
+
+.logo_img{
+    width: 50%;
+    margin: 50px 0 50px 0;
+}
+
+.container-special-mid{
+    position: relative;
+    height: 100px;
+}
+
+.container-special-mid hr{
+    margin: 10px;
+}
+
+.container-special-mid p:nth-child(2){
+    position: relative;
+    top: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    width: 50px;
+}
+
+.icon-face{
+    margin-right: 8px;
+}
+
+.container-special-mid p:nth-child(1){
+    color: #385185;
+}
+
+
+.link-forget{
+    color: #00376b;
+    margin: 15px;
+}
+
+.container-store{
+    width: 85%;
+    text-align: center;
+}
+
+.container-store p{
+    width: 100%;
+    height: 15px;
+}
+
+.container-store .store-img{
+    display: flex;
+
+}
+
+.container-store img{
+    width: 50%;
+}
+
+@media screen and (max-width:875px){
+    .container-img{
+        display: none;
+    }
+
+    .container-data{
+        width: 85%;
+        margin: 0 auto;
+    }
+}
